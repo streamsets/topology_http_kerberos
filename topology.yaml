@@ -20,6 +20,8 @@ node groups:
         - kdc
     webserver-node:
         - webserver
+    service-node:
+        - service
 
 start args:
     --kerberos-config-directory:
